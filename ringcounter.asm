@@ -27,8 +27,7 @@ rpt:
 	mov dl,0ffh
 	int 21h
 	pop ax
-	jz rpt          ; function 06 try to sense, if a key is   
-                                 ;pressed, if yes, ZF = 0 
+	jz rpt          ; function 06 try to sense, if a key is pressed, if yes, ZF = 0 
 
 	mov ah,4ch
 	int 21h
