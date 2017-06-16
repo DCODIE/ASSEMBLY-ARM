@@ -1,4 +1,5 @@
-;GCD AND LCM assume cs:code,ds:data
+;GCD AND LCM
+assume cs:code,ds:data
 data segment
          x db 05d
          y db 25d
