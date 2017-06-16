@@ -1,4 +1,6 @@
-;FIBINOXY OF GIVEN NO Assume cs:code,ds:data segment
+;FIBINOXY OF GIVEN NO 
+Assume cs:code,ds:data
+data segment
  fibo db 10 dup(?)
  n db 0ah
  data ends
