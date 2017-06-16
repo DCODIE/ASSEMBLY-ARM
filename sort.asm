@@ -18,6 +18,6 @@ L2:       MOV AX,[SI]
 L1:       LOOP L2
           DEC DX
           JNZ L3
-         MOV AH,04CH
+          MOV AH,04CH
           INT 21H
           END START
